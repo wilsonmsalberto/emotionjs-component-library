@@ -29,8 +29,11 @@ var __importStar = (this && this.__importStar) || function (mod) {
     __setModuleDefault(result, mod);
     return result;
 };
+var __importDefault = (this && this.__importDefault) || function (mod) {
+    return (mod && mod.__esModule) ? mod : { "default": mod };
+};
 Object.defineProperty(exports, "__esModule", { value: true });
 var colors = __importStar(require("./colors"));
-var global = __importStar(require("./global"));
-exports.default = __assign(__assign({}, colors), global);
+var global_1 = __importDefault(require("./global"));
+exports.default = __assign(__assign({}, colors), { global: global_1.default });
 //# sourceMappingURL=index.js.map

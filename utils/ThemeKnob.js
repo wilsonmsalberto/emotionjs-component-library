@@ -10,11 +10,11 @@ import { Dark, Light } from '@emotion-ui/themes';
 const themes = {
     Dark: {
         theme : Dark,
-        global: Dark.globalStyles,
+        global: Dark.global,
     },
     Light: {
         theme : Light,
-        global: Light.globalStyles,
+        global: Light.global,
     },
 };
 
