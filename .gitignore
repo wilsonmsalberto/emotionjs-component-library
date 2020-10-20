@@ -1,0 +1,22 @@
+# Dependency directories
+node_modules/
+
+# Logs
+*.log
+yarn-debug.log*
+yarn-error.log*
+report.*.json
+
+# Test coverage
+coverage/
+
+# Images
+.DS_Store
+
+# VSCode
+.vscode/
+launch.json
+
+.idea
+.scannerwork/
+.eslintcache

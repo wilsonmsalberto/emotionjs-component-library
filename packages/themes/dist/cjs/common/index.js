@@ -1,0 +1,10 @@
+"use strict";
+var __makeTemplateObject = (this && this.__makeTemplateObject) || function (cooked, raw) {
+    if (Object.defineProperty) { Object.defineProperty(cooked, "raw", { value: raw }); } else { cooked.raw = raw; }
+    return cooked;
+};
+Object.defineProperty(exports, "__esModule", { value: true });
+var core_1 = require("@emotion/core");
+exports.default = core_1.css(templateObject_1 || (templateObject_1 = __makeTemplateObject(["\n    *,\n    *::before,\n    *::after {\n        box-sizing: border-box;\n    }\n\n    html {\n        height: 100%;\n        font-size: 62.5%;\n    }\n\n    body {\n        height: 100%;\n        font-size: 1.2rem;\n        -webkit-font-smoothing: antialiased;\n        line-height: 1.4;\n    }\n\n    html,\n    body {\n        min-height: 100%;\n        margin: 0;\n        padding: 0;\n    }\n\n    h1,\n    h2,\n    h3,\n    h4,\n    h5,\n    h6 {\n        margin: 0;\n        font-weight: normal;\n    }\n\n    ul,\n    li {\n        margin: 0;\n        padding: 0;\n        list-style: none;\n    }\n\n    textarea:focus,\n    input:focus {\n        outline: none;\n    }\n"], ["\n    *,\n    *::before,\n    *::after {\n        box-sizing: border-box;\n    }\n\n    html {\n        height: 100%;\n        font-size: 62.5%;\n    }\n\n    body {\n        height: 100%;\n        font-size: 1.2rem;\n        -webkit-font-smoothing: antialiased;\n        line-height: 1.4;\n    }\n\n    html,\n    body {\n        min-height: 100%;\n        margin: 0;\n        padding: 0;\n    }\n\n    h1,\n    h2,\n    h3,\n    h4,\n    h5,\n    h6 {\n        margin: 0;\n        font-weight: normal;\n    }\n\n    ul,\n    li {\n        margin: 0;\n        padding: 0;\n        list-style: none;\n    }\n\n    textarea:focus,\n    input:focus {\n        outline: none;\n    }\n"])));
+var templateObject_1;
+//# sourceMappingURL=index.js.map
