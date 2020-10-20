@@ -1,6 +1,6 @@
 {
   "name": "@emotion-ui/components",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "Emotion Components",
   "license": "MIT",
   "main": "dist/cjs/index.js",
