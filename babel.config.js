@@ -23,7 +23,7 @@ module.exports = {
             alias: {
                 '@emotion-ui/components': [ './packages/components/src' ],
                 '@emotion-ui/themes'    : [ './packages/themes/src' ],
-                '@utils'                : [ './utils' ],
+                'utils'                 : [ './utils' ],
             },
         } ],
     ],

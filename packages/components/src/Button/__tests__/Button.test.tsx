@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { render, themesList } from '@utils/tests';
+import { render, themesList } from 'utils/tests';
 
 // Components
 import Button from '../Button';

@@ -19,7 +19,7 @@ module.exports = {
     ],
     moduleNameMapper: {
         '@emotion-ui/(.+)$': '<rootDir>packages/$1/src',
-        '@utils/(.*)$'     : '<rootDir>utils/$1',
+        '^utils/(.*)$'     : '<rootDir>utils/$1',
     },
     moduleFileExtensions    : [ 'ts', 'tsx', 'js', 'jsx' ],
     modulePathIgnorePatterns: [ '<rootDir>/coverage/' ],

@@ -2,10 +2,10 @@ import * as React from 'react';
 import { withKnobs } from '@storybook/addon-knobs';
 
 // Theme Switcher
-import ThemeKnob from '@utils/ThemeKnob';
+import ThemeKnob from 'utils/ThemeKnob';
 
 // Utils
-import { Story } from '@utils/types';
+import { Story } from 'utils/types';
 
 // Component
 import Button, { ButtonTypes } from './Button';

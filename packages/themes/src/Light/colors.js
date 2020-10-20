@@ -4,8 +4,8 @@ export const baseColors = {
 };
 
 const mapping = {
-    primary    : baseColors.P10,
-    secondary  : baseColors.P11,
+    primary  : baseColors.P10,
+    secondary: baseColors.P11,
 };
 
 export const colors = {
